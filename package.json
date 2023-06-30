@@ -1,0 +1,27 @@
+{
+  "name": "candles-cleaner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --watch -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christian-rojas/candles-cleaner.git"
+  },
+  "keywords": [
+    "lambda"
+  ],
+  "author": "christian-rojas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christian-rojas/candles-cleaner/issues"
+  },
+  "homepage": "https://github.com/christian-rojas/candles-cleaner#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mongodb": "^5.6.0"
+  }
+}
