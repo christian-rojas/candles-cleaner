@@ -26,5 +26,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           # npm run build # Adjust the build command if needed
-          aws lambda update-function-code --function-name candles-cleaner --zip-file fileb://./package.zip
+          aws lambda update-function-code --function-name candles-cleaner --zip-file fileb://package.zip
           # The above command assumes that your build output is in a 'lambda' directory and contains a 'package.zip' file
